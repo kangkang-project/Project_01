@@ -227,4 +227,3 @@ git push origin --delete login
 git branch -d 分支名字 #删除已合并的分支
 git branch -D 分支名字 #强制删除
 ```
-
