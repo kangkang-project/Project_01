@@ -51,7 +51,7 @@ git commit -a -m '描述信息' #文件必须是已经追踪过的
 ```
 
 ## 9.移除文件
-
+  
 ```shell
 # 从 Git仓库和工作区中同时移除 index.js 文件
 git rm -f index.js
