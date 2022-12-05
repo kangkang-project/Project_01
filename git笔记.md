@@ -23,7 +23,7 @@ git push -u origin master
 
 git checkout -b 分支名字 创建并切换
 
-git cheout 分支名字 切换
+git checkout 分支名字 切换
 ```
 
 ### 分支
@@ -49,7 +49,7 @@ git cheout 分支名字 切换
 
 ### 把远端仓库分支同步到本地
 
-- `git  fetch                      git  checkout     分支名字    `
+- `git  fetch           git checkout 分支名字`
 
 ### 怎么把别人推送的最新代码  拉取到本地
 
