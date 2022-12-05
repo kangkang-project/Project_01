@@ -1,5 +1,60 @@
 # GIT
 
+### day02
+
+### 使用git的要求
+
+```markdown
+# git  init  只需要创建一次
+
+# 远端仓库创建好后我们需要复制一句话到 我们本地        只需要复制一次
+
+git remote add origin xxxxxxxx
+
+# 每次代码修改 和 新建 怎么推到远端
+
+git add .
+
+git commit -m  '提交信息'
+
+git push -u origin master
+
+# 创建分支
+
+git checkout -b 分支名字 创建并切换
+
+git cheout 分支名字 切换
+```
+
+### 分支
+
+- 实际工作中 如果有多个人做一个项目 每个人一个分支
+- 每个功能一个分支   `index   index分支     list   list分支里面 `
+
+### 创建分支
+
+- `git checkout -b  分支名称  创建分支并切换`   注意： 创建新的分支的时候 一定要保证一点 当前分支一定是提交之后的
+  - `git  branch  分支名字 【创建分支】 git checkout  分支名字   切换分支  `
+
+### 合并分支
+
+- `get  merge 名字  `      合并之前 一定要保证 当前分支是干净的
+- 如果想要把users分支 合并到master ===>   切换到master 上合并
+
+### git 中什么时候会冲突
+
+- 在不同的分支对同一个文件进行修改 此时会造成冲突
+- `git 是不会删除我们的文件  对于冲突 我们只能手动修改`
+- 冲突解决完后 再次 提交 `git add . git commit -m ''   `
+
+### 把远端仓库分支同步到本地
+
+- `git  fetch                      git  checkout     分支名字    `
+
+### 怎么把别人推送的最新代码  拉取到本地
+
+- `master 分支你的本地有  你同事合并最新的代码到master    在本地 git  pull `
+
 ## day01
 
 ### 版本控制 ： 【替代了我们手动复制 存档的工作】--》 版本存档
