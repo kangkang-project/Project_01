@@ -107,7 +107,7 @@ git push -u origin "master" # 第一次设置
 git push #第二次以后提交
 ```
 
-## 14.删除gitee仓库链接
+## 14.删除 gitee 仓库链接
 
 ```shell
 git remote remove origin
@@ -119,7 +119,7 @@ git remote remove origin
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
-## 16.测试sshkey是否配置成功
+## 16.测试 ssh key 是否配置成功
 
 ```shell
 ssh -T git@gitee.com
