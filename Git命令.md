@@ -227,3 +227,7 @@ git push origin --delete login
 git branch -d 分支名字 #删除已合并的分支
 git branch -D 分支名字 #强制删除
 ```
+
+## 30.强制删除本地文件
+
+- rm -rf 文件名  (只能在 git bash 里面使用)
