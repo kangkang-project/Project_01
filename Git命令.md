@@ -87,7 +87,7 @@ git log --pretty=oneline
 # 使用 git reset --hard 命令，根据指定的提交 ID 回退到指定版本
 git reset --hard <CommitID>
 
-# 在旧版本中使用 git reflog --pretty=oneline 命令，查看命令操作的历史
+# 在旧版本中使用 git reflog --pretty=online 命令，查看命令操作的历史
 git reflog
 
 # 再次根据最新的提交 ID，跳转到最新的版本
