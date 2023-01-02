@@ -19,35 +19,35 @@ git status -s #精简方式显示
 git add 文件名字
 ```
 
-## 4.添加到仓库
+## 4.一次性添加多个文件
+
+```shell
+git add .
+```
+
+## 5.跳过暂存区
+
+```shell
+git commit -a -m '描述信息' #文件必须是已经追踪过的
+```
+
+## 6.添加到仓库
 
 ```shell
 git commit -m '描述信息'
 ```
 
-## 5.撤销对文件的修改
+## 7.撤销对文件的修改
 
 ```shell
 git checkout -- 文件名字
 ```
 
-## 6.一次性添加多个文件
-
-```shell
-git add  .
-```
-
-## 7.取消暂存的文件
+## 8.取消暂存的文件
 
 ```shell
 git reset HEAD 要移出的文件名称
 git reset HEAD . #所有文件移除暂存区
-```
-
-## 8.跳过暂存区
-
-```shell
-git commit -a -m '描述信息' #文件必须是已经追踪过的
 ```
 
 ## 9.移除文件
